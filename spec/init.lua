@@ -28,7 +28,6 @@ function M.setup()
   vim.opt.packpath = { M.root(".spec/site") }
 
   M.load("nvim-lua/plenary.nvim")
-  M.load("neovim/nvim-lspconfig")
 
   require("phpactor").setup({
     install = {
